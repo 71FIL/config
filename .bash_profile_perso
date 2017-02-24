@@ -1,0 +1,5 @@
+# Source this from standard .bash_profile
+
+export PS1='\n[\h:[1m\w[0m]\n> '
+export HISTCONTROL=ignoreboth:erasedups
+
