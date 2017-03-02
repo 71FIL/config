@@ -1,3 +1,5 @@
+execute pathogen#infect()
+
 filetype plugin indent on
 set expandtab
 set background=dark
@@ -18,10 +20,5 @@ set tabstop=2
 let g:solarized_termcolors=256
 colorscheme solarized
 
-call plug#begin()
-Plug 'fatih/vim-go', { 'do': ':GoInstallBinaries' }
-call plug#end()
-
 let g:go_fmt_command = "goimports"
-
 
