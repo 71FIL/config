@@ -3,3 +3,5 @@
 export PS1='\n[\h:[1m\w[0m]\n> '
 export HISTCONTROL=ignoreboth:erasedups
 
+complete -r
+
