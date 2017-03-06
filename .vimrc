@@ -20,7 +20,5 @@ set tabstop=2
 let g:solarized_termcolors=256
 colorscheme solarized
 
-
 let g:go_fmt_command = "goimports"
-
 
