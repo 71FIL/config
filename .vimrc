@@ -24,3 +24,16 @@ let g:go_fmt_command = "goimports"
 
 
 set pastetoggle=<F3>
+
+function! ResCur()
+  if line("'\"") <= line("$")
+    normal! g`"
+    return 1
+  endif
+endfunction
+
+augroup resCur
+  autocmd!
+  autocmd BufWinEnter * call ResCur()
+augroup END
+
