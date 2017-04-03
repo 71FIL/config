@@ -22,3 +22,5 @@ colorscheme solarized
 
 let g:go_fmt_command = "goimports"
 
+
+set pastetoggle=<F3>
