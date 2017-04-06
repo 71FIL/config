@@ -1,7 +1,7 @@
-#Ignore everything
+# Ignore everything...
 *
 
-# But not these files...
+# ... except for these
 !.gitignore
 !.bashrc_perso
 !.vimrc
@@ -9,4 +9,3 @@
 !.bash_profile_perso
 !.tmux.conf
 !.gitconfig_perso
-
