@@ -6,6 +6,8 @@ set background=dark
 set autowrite
 syntax enable
 
+set hlsearch
+
 set tabstop=2
 
 " g:solarized_termcolors= 16 | 256 
