@@ -2,7 +2,6 @@ execute pathogen#infect()
 
 filetype plugin indent on
 set expandtab
-set background=dark
 set autowrite
 syntax enable
 
@@ -19,6 +18,8 @@ set tabstop=2
 " g:solarized_contrast = "normal"| "high" or "low" 
 " g:solarized_visibility= "normal"| "high" or "low"
 
+set background=dark
+let g:solarized_termtrans = 1 " This gets rid of the grey background
 let g:solarized_termcolors=256
 colorscheme solarized
 

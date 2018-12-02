@@ -7,3 +7,5 @@ complete -r
 
 alias tmux="TERM=screen-256color-bce tmux"
 alias fixssh='export $(tmux showenv SSH_AUTH_SOCK)'
+
+export PATH=~/bin:$PATH
