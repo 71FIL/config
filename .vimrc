@@ -1,4 +1,4 @@
-execute pathogen#infect()
+" execute pathogen#infect()
 
 filetype plugin indent on
 set expandtab
@@ -19,9 +19,9 @@ set tabstop=2
 " g:solarized_visibility= "normal"| "high" or "low"
 
 set background=dark
-let g:solarized_termtrans = 1 " This gets rid of the grey background
-let g:solarized_termcolors=256
-colorscheme solarized
+" let g:solarized_termtrans = 1 " This gets rid of the grey background
+" let g:solarized_termcolors=256
+" colorscheme solarized
 
 let g:go_fmt_command = "goimports"
 
